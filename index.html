@@ -27,13 +27,42 @@
             width: 200px;
             height: 200px;
         }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .section {
+            text-align: left;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Irfan Maqbool Chatha</h1>
-        <p>Specialist Web Engineer</p>
+        <p>Specialist Software Engineer</p>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <img class="profile-img" src="your_profile_image.jpg" alt="Your Profile Image">
         <h2>About Me</h2>
@@ -41,6 +70,26 @@
             I am a Specialist Software Engineer with a passion for web and desktop app development, API development,
             end-to-end process automation, and database development & management.
         </p>
+        <div id="work-experience" class="section">
+            <h2>Work Experience</h2>
+            <!-- Add your work experience details here -->
+        </div>
+        <div id="education" class="section">
+            <h2>Education</h2>
+            <!-- Add your education details here -->
+        </div>
+        <div id="skills" class="section">
+            <h2>Skills</h2>
+            <!-- Add your skills details here -->
+        </div>
+        <div id="certifications" class="section">
+            <h2>Certifications</h2>
+            <!-- Add your certifications details here -->
+        </div>
+        <div id="contact-me" class="section">
+            <h2>Contact Me</h2>
+            <p>Email: imchatha@hotmail.com<br> Mobile: +92-336-7060074</p>
+        </div>
     </div>
 </body>
 </html>
